@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaCore-Core Wellness, Vital Health Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main">
+      <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="Assets/logo.png" alt="VitaCore">
+        </div>
+        
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+       
+        <div class="navbar-links" id="navbar-links">
+            <a href="/index.html" class="active">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/register.html">Book-Appointment</a>
+            <a href="/blogs.html">Blogs</a>
+            <a href="/contact.html" class="navbar-contact">Contact US</a>
+        </div>
+    </nav>
+    
+        <main>
+            <div class="header">
+                <img src="Assets/img1.svg" alt="Doctor">
+                <div class="header-title">
+                    <h1>Vitacore</h1>
+                    <p>One for all your healthcare needs</p>
+                </div>
+                <div class="header-contact navbar-contact">
+                    <img src="Assets/call.svg"  alt="Phone">
+                    <span >+91 8116779314</span>
+                    
+                </div>
+                
+            </div>
+            <!-- <div class="sepration"></div> -->
+
+            <div class="content1">
+                <img width="300" src="Assets/Screenshot_2024-10-01_203209-removebg-preview.png" alt=" img">
+                <div class="block1">
+                    <div>Doctors upload patient data directly, ensuring accuracy and making the system user-friendly.
+                        It's hassle-free for students and easy to navigate for everyone.</div>
+                        <div class="service">
+                        <a class="Services" id="check" href="/register">Services - Talk To Doctor
+                        <img id="check" class="Services Services-icon" src="Assets/Services.svg" alt="Services">
+                    </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content1">
+                <img src="Assets/Screenshot_2024-10-01_203110-removebg-preview.png" alt="">
+                <div class="block1">
+                    <div>We provide offline consultancy too!</div>
+
+                    <a target="_blank" href="https://www.google.co.in/maps/place/BML+Munjal+University+(BMU)/@28.2476758,76.811052,17z/data=!3m1!4b1!4m6!3m5!1s0x390d478e1d59b7fb:0xb1787ccb5563c223!8m2!3d28.2476758!4d76.8136269!16s%2Fm%2F0125spqv?entry=ttu&g_ep=EgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D"><img src="Assets/img4.svg"  alt="Address"></a>
+                </div>
+            </div>
+
+            <section class="user-options">
+              <div class="container">
+                  <div class="card">
+                      <img src="Assets/patient-profile-people.svg" alt="I am a patient">
+                      <h3>I am a patient</h3>
+                      <p>Say goodbye to boring old appointments, say hello to MyGPConnect.</p>
+                      <button class="login-btn" action="/login.html">Log in</button>
+                  </div>
+                  <div class="card">
+                      <img src="Assets/doctor.svg" alt="I am a doctor">
+                      <h3>I am a doctor</h3>
+                      <p>Your to-do list just got shorter. Find out more about our services.</p>
+                      <button class="login-btn">Log in</button>
+                  </div>
+              </div>
+          </section>
+
+
+            <section class="services">
+             <center> <h2>Services we Provide</h2></center>
+              <div class="container">
+                  <div class="service-cards">
+                      <div class="card">
+                          <h3>Dashboard</h3>
+                          <img src="Assets/service-appointment.svg" >
+                          <p>Manage your health information</p>
+                          <button class="user-btn">visit now</button>
+                      </div>
+                      <div class="card">
+                          <h3>Doctor Profiles</h3>
+                          <img src="Assets/doctor.svg" >
+                          <p>Find the right specialist for you</p>
+                          <button class="user-btn">visit now</button>
+                      </div>
+                      <div class="card">
+                          <h3>Appointment</h3>
+                          <img src="Assets/service-appointment.svg" >
+                          <p>Book appointments easily</p>
+                          <button class="user-btn">Book now</button>
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+          <section class="features-section">
+            <h2>Features of Online Registration System</h2>
+            <div class="container">
+                <div class="feature-container">
+                    <div class="feature-card">
+                        <div class="icon">⚡</div> <!-- Replace with relevant icons -->
+                        <h3>Simple Appointment Process</h3>
+                        <p>For your first visit to the hospital, registration and appointment are made simpler...</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🏥</div> <!-- Replace with relevant icons -->
+                        <h3>Hospital On Boarding</h3>
+                        <p>Hospitals can come on board and provide their appointment slots...</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">📊</div> <!-- Replace with relevant icons -->
+                        <h3>Dashboard Reports</h3>
+                        <p>Detailed reports showing information about new and old patients...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        </main>
+
+
+
+    
+    <footer class="footer-section">
+        <p>&copy; 2024 VitaCore. All Rights Reserved.</p>
+        <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contactus">Contact Us</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+        </ul>
+    </footer>
+    <script>
+      const hamburger = document.getElementById('hamburger');
+      const navLinks = document.getElementById('navbar-links');
+    
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+
+      });
+      const login = document.getElementsByClassName('login-btn')[0];
+      login.addEventListener('click',()=>{
+        window.open("/login.html", "_self")
+      })
+    </script>
+    
+</div>
+</body>
+
+</html>
